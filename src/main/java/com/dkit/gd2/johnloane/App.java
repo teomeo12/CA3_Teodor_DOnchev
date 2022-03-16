@@ -46,7 +46,7 @@ public class App
 
         questionTwoPartA( employeeList);
         pickLuckyWinner(employeeList);
-       // questionTwoPartB();
+        questionTwoPartB(employeeList);
        // questionTwoPartC();
        // questionTwoPartD();
 
@@ -97,6 +97,17 @@ public class App
 
         int index = random.nextInt(employeeList.size());
         System.out.println("\nThe winner is  :" +employeeList.get(index)  );
+
+    }
+
+    public static void questionTwoPartB(List<Employee> employeeList){
+        System.out.println("List iterator");
+
+        Set<Employee> employee= new HashSet<>();
+
+
+
+
 
     }
     //The method below relates to Question 4
